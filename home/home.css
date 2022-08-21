@@ -1,0 +1,155 @@
+.carousel-text {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 5px 5px 5px #000;
+    text-align: center;
+}
+
+.icon-big {
+    /*color: #b41111;*/
+    border-radius: 50%;
+    text-align: center;
+    font-size: 50px;
+    display: block;
+    width: 30%;
+    height: 30%;
+    margin: auto;
+}
+
+h2 {
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+.long-copy  {
+    /*line-height: 145%;
+    width: 50%;
+    margin-left: 25%;*/
+    text-align: center;
+}
+
+h4 {
+    padding-top: 20px;
+}
+
+.section-program {
+    background-color: #f4f4f4;
+    padding-top: 20px;
+}
+
+.program-details .detail {
+    width: auto;
+    height: 250px;
+    transform: scale(1);
+    transition: transform 0.2s;
+}
+
+.program-details .detail:hover {
+    color: #fff;
+    background-color: #b41111;
+    transform: scale(1.02);
+}
+
+p {
+    padding: 10px;
+}
+
+.section-message {
+    margin: 0 !important;
+}
+
+.msg {
+    border-radius: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.section-message .msg {
+    transform: scale(0.99);
+    transition: transform 0.2s;
+}
+
+.section-message .msg:hover {
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: scale(1.05);
+}
+
+.contact-us {
+    background-color: #f4f4f4;
+}
+
+.cnt-us {
+    padding: 20px;
+}
+
+.form-details {
+    background-color: #fff;
+    padding: 20px;
+    margin-right: 30px;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.contact-form {
+    margin: 0 auto;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 15px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type=checkbox] {
+    margin: 10px 5px 10px 0;
+}
+
+.items {
+    padding: 10px;
+}
+
+.items li {
+    list-style: none;
+}
+
+.items a {
+    color: #888;
+    text-decoration: none;
+    transition: color 0.2s;
+    transform: scale(1);
+}
+
+.items a i {
+    padding-right: 15px;
+}
+
+.items a:hover {
+    transform: scale(1.02);;
+}
+
+iframe {
+    filter: invert(100%);
+}
+
+
+
+
+
+
+

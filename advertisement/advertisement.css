@@ -1,0 +1,16 @@
+.adv {
+    border-radius: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    transform: scale(1);
+    transition: transform 0.2s;
+}
+
+.adv:hover {
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: scale(1.03);
+}
+
+.section-adv {
+    margin: 0 !important;
+}
